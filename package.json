@@ -1,0 +1,39 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack-dev-server",
+    "build": "webpack",
+    "build:prod": "webpack --config webpack.config.prod.js"
+  },
+  "author": "Katarzyna Krawczyk",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "exports-loader": "^3.0.0",
+    "favicons": "^6.2.1",
+    "favicons-webpack-plugin": "^5.0.2",
+    "node-sass": "^6.0.0",
+    "postcss-loader": "^5.3.0",
+    "regenerator-runtime": "^0.13.3",
+    "sass": "^1.34.0",
+    "sass-loader": "^7.3.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
