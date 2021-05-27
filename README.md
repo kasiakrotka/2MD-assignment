@@ -1,11 +1,11 @@
 # 2MD-assignment
 
-##Build Instruction 
+## Build Instruction 
 ````
 npm install 
 ````
 
-##Run Instruction 
+## Run Instruction 
 ````
 npm run build:dev
 ````
